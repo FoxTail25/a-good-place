@@ -12,6 +12,7 @@ a {
 
 h1 {
     margin: 0;
+
 }
 header {
     height: 80px;
@@ -21,7 +22,12 @@ header {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size: 1.1rem;  
+    font-size: 1.1rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+      
 }
 .banner {
     height: 80vh;
@@ -37,8 +43,9 @@ header {
 
 }
 .banner h1 {
-    position: relative;
-    z-index: 2;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
 }
 
 .banner::before {
@@ -110,7 +117,7 @@ header {
 }
 @media (max-width: 768px) {
     header {
-        height: 80px;
+        height: 70px;
         background: linear-gradient(90deg, rgb(0,68,69)5%,rgb(15, 66, 24) 50%);
     }
     
