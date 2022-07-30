@@ -15,7 +15,7 @@ h1 {
 }
 header {
     height: 80px;
-    background: linear-gradient(70deg, rgb(0,68,69)15%,rgb(52,67,38) 60%);
+    background: linear-gradient(70deg, rgb(0,68,69)15%,rgb(15, 66, 24) 60%);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@ header {
     left: 0;
 }
 .info {
-    background: linear-gradient(55deg, rgb(2,123,132)40%,rgb(2,72,72)80%);
+    background: rgb(15, 66, 24);
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -111,7 +111,7 @@ header {
 @media (max-width: 768px) {
     header {
         height: 80px;
-        background: linear-gradient(90deg, rgb(0,68,69)5%,green 50%);
+        background: linear-gradient(90deg, rgb(0,68,69)5%,rgb(15, 66, 24) 50%);
     }
     
 }
