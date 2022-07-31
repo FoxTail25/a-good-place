@@ -46,6 +46,7 @@ header {
     position: sticky;
     top: 100px;
     z-index: 1;
+    
 }
 
 .banner::before {
@@ -83,10 +84,10 @@ header {
 
 @media (min-width: 600px) and (max-width: 1199px) {
     .container{
-        padding: 30px;
+        padding: 10px;
     }
     header {
-        height: auto;
+        height: 50px;
     }
     .info {
         grid-template-columns: repeat(2, 1fr);
@@ -98,7 +99,7 @@ header {
         padding: 10px;
     }
     header {
-        height: auto;
+        height: 50px;
         flex-direction: column;
         gap: 10px;
     }
@@ -117,8 +118,11 @@ header {
 }
 @media (max-width: 768px) {
     header {
-        height: 70px;
+        height: 50px;
         background: linear-gradient(90deg, rgb(0,68,69)5%,rgb(15, 66, 24) 50%);
     }
     
+}
+.animate__zoomIn {
+    animation-duration: 3s;
 }
